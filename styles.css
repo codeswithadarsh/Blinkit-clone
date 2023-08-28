@@ -46,23 +46,25 @@
   font-size: 14px !important;
   border-radius: 8px;
 }
+.hero-section>img{
+  width: 85%;
+}
 
 .my-container{
   margin: auto;
-  width: 83%;
-  overflow-x: scroll;
+  width: 85%;
+  overflow: auto;
 }
 .my-list{
   white-space: nowrap;
+  
 }
 
 .my-list>img{
   padding-inline: 10px;
 }
 
-::-webkit-scrollbar{
-  display: none;
-}
+
 
 .my-categories{
   width: 85%;
@@ -231,4 +233,13 @@ td{
   .social{
       margin-top: 10px;
   }
+
+  ::-webkit-scrollbar{
+    display: none;
+}
+}
+
+.love-footer{
+  padding-top: 20px;
+  text-align: center;
 }

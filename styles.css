@@ -62,8 +62,8 @@
 
 .my-list>img{
   padding-inline: 10px;
+  padding-bottom: 10px;
 }
-
 
 
 .my-categories{
@@ -115,6 +115,29 @@
   width: 100%;
   overflow-x: scroll;
 }
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(254, 254, 254); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d831e; 
+}
+
 
 .my-footer{
   width: 85%;
